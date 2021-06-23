@@ -1,0 +1,50 @@
+.img_spot >img {
+  width: 70%;
+}
+.container{
+  background-color: black;
+  height: 100%;
+  width :200px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.img_spot {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.row_items {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 14px;
+  align-items: center;
+  transition: all 0.5s;
+}
+.row_items > p {
+font-size: 14px;
+font-weight: 700;
+color: #B3B3B3;
+margin: 0;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+
+
+.row_items:hover > p{
+  color:#fff;
+  transition: all 0.5s;
+}
+
+.row_items:hover > svg{
+  fill:#fff;
+  stroke:#fff;
+  transition: all 0.5s;
+}
+
+
