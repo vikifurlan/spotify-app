@@ -6,6 +6,8 @@ html {
   all:unset;
   height: 100%;
   box-sizing: border-box;
+  background: rgb(50, 50, 50);
+
 }
 body {
   all:unset;

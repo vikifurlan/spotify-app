@@ -1,15 +1,16 @@
 .container_header {
   height: 60px;
   width: 100%;
-  background: rgb(23, 23, 23);
+  background: rgba(23, 23, 23,0.7);
   display: flex;
   justify-content: space-between;
+  position: fixed;
 }
 .container_arrows {
   display: flex;
   align-items: center;
   height: 100%;
-  margin-left: 30px;
+  margin-left: 285px;
 }
 
 .subscribe {

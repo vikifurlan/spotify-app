@@ -1,19 +1,20 @@
-.img_spot >img {
+.img_spot > img {
   width: 70%;
 }
-.container{
+.container {
   background-color: black;
   height: 100%;
-  width :200px;
+  width: 200px;
   padding: 24px;
   display: flex;
   flex-direction: column;
   row-gap: 30px;
+  position: fixed;
+  z-index: 10;
 }
 .img_spot {
   display: flex;
   justify-content: flex-start;
-  
 }
 .row_items {
   display: flex;
@@ -23,10 +24,10 @@
   transition: all 0.5s;
 }
 .row_items > p {
-font-size: 14px;
-font-weight: 700;
-color: #B3B3B3;
-margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #b3b3b3;
+  margin: 0;
 }
 .items {
   display: flex;
@@ -34,17 +35,13 @@ margin: 0;
   row-gap: 12px;
 }
 
-
-
-.row_items:hover > p{
-  color:#fff;
+.row_items:hover > p {
+  color: #fff;
   transition: all 0.5s;
 }
 
-.row_items:hover > svg{
-  fill:#fff;
-  stroke:#fff;
+.row_items:hover > svg {
+  fill: #fff;
+  stroke: #fff;
   transition: all 0.5s;
 }
-
-

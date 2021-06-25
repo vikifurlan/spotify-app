@@ -1,12 +1,12 @@
 import React from "react";
 import "./index.css";
-const Card = () => {
+const Card = ({image,titulo,subtitulo}) => {
   return (
     <div className="container_card">
-      <img />
+      <img src={image}/>
       <div className="container_titles">
-        <h4>Treino anos 80</h4>
-        <p>Pura malhaçãp retrõ para você suar as polâinas</p>
+        <h4>{titulo}</h4>
+        <p>{subtitulo}</p>
       </div>
     </div>
   );
